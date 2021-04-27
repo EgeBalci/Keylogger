@@ -13,7 +13,7 @@ Simple C++ Keylogger...
 
 ---
 
-#### To produce DLL independent code: ####
+#### To produce DLL independent code (Microsoft VS): ####
 
 On the top menu:
 
