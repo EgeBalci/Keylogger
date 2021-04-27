@@ -3,7 +3,7 @@ Simple C++ Keylogger...
 
 ---
 
-###Building c++ executable:###
+### Building c++ executable: ###
 
 1- Install  Microsoft VS or any IDE of your choice
 
@@ -13,7 +13,7 @@ Simple C++ Keylogger...
 
 ---
 
-####To produce DLL independent code:####
+#### To produce DLL independent code: ####
 
 On the top menu:
 
